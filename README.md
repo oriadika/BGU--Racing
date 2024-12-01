@@ -1,8 +1,8 @@
-LIDAR Point Cloud Processing
+**LIDAR Point Cloud Processing**
 This project is developed for the Automation Team of the BGU Racing Team as part of the Ben-Gurion University Racing Hiring process
 The code processes LIDAR point cloud data to identify cone-like objects on a race track, aiding in autonomous vehicle navigation.
 
-Overview
+**Overview**
 The program automates the analysis of 3D LIDAR data to detect and visualize cones on the race track. The workflow includes:
 
 1.PFA Filtering: Filters points based on the Probability of False Alarm to improve data quality.
@@ -13,7 +13,7 @@ The program automates the analysis of 3D LIDAR data to detect and visualize cone
 
 The approach aims to streamline the identification of key objects from raw LIDAR data, making it easier to feed into downstream navigation algorithms.
 
-Installation and Run Instructions
+**Installation and Run Instructions**
 Prerequisites
 Operating System: Windows 10/11 (used during development)
 Python Version: Python 3.8 or later
@@ -28,8 +28,7 @@ Clone the repository or download the project:
 
 bash
 Copy code
-git clone https://github.com/your-repo/bgu-racing-lidar.git
-cd bgu-racing-lidar
+git clone **https://github.com/oriadika/BGU--Racing.git**
 Place the LIDAR CSV file (Frame_702_Refl_1.csv or your own data) in the Docs folder. The CSV file must include these columns:
 
 x: X-coordinate of the point
@@ -47,7 +46,7 @@ Explanation of Work and Approach
 Approach
 The program processes LIDAR data step by step:
 
-PFA Filtering:
+**PFA Filtering:**
 
 Filters out points with a high Probability of False Alarm.
 Provides user control over the threshold to accommodate varying data quality.
